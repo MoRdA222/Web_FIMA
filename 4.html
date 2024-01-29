@@ -1,0 +1,124 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .nav {
+            display: flex;
+            list-style: none;
+        }
+        .nav li {
+            margin-left: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            color: #ff9900;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .service {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .service img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .service h3 {
+            padding: 10px;
+            color: #333;
+        }
+        .service p {
+            padding: 10px;
+            color: #666;
+        }
+        .service button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #ff9900;
+            color: white;
+            cursor: pointer;
+        }
+        .service button:hover {
+            background-color: #ff6600;
+        }
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">SmirnovED-Авто</div>
+            <ul class="nav">
+                <li><a href="3.html" title="Перейти на главную страницу">Главная</a></li>
+                <li><a href="2.html" title="Услуги">Услуги</a></li>
+                <li><a href="5.html" title="Связаться с нами по телефону или электронной почте">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="service">
+                <img src="10.jpg" alt="Сервис 1">
+                <h3>Диагностика и ремонт</h3>
+                <p>Мы предлагаем качественный и недорогой сервис по диагностике и ремонту автомобилей любых марок и моделей. Мы используем современное оборудование и оригинальные запчасти, а наши мастера имеют большой опыт и профессионализм. Мы гарантируем, что ваш автомобиль будет в надежных руках и вы получите его в отличном состоянии.</p>
+                <button>Записаться</button>
+            </div>
+            <div class="service">
+                <img src="11.jpg" alt="Сервис 2">
+                <h3>Шиномонтаж и балансировка</h3>
+                <p>Мы предлагаем быстрый и качественный шиномонтаж и балансировку колес для вашего автомобиля. Мы работаем с любыми типами и размерами шин, а также предоставляем услуги по хранению и замене сезонной резины. Мы используем профессиональное оборудование и соблюдаем все технические нормы и стандарты. Мы гарантируем, что ваш автомобиль будет безопасен и комфортен на дороге.</p>
+                <button>Записаться</button>
+            </div>
+            <div class="service">
+                <img src="13.jpg" alt="Сервис 3">
+                <h3>Продажа Автомобилей</h3>
+                <p>Мы предлагаем продажу премиальных автомобилей, бизнес-класса, спорткары</p>
+                <button>Записаться</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 SmirnovED-Авто. Все права защищены.</p>
+        </div>
+    </div>
+</body>
+</html>
